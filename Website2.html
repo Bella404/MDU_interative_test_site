@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<!-- Declares that this document uses HTML5. -->
+
+<html lang="en">
+<!-- Root element of the page. The language is set to English. -->
+
+<head>
+    <!-- Defines the character encoding used by the page. -->
+    <meta charset="utf-8">
+
+    <!-- Makes the layout responsive on phones, tablets, and desktops. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Text displayed in the browser tab. -->
+    <title>Welcome to MDU University</title>
+
+    <!-- Connects this page to the external CSS stylesheet. -->
+    <link rel="stylesheet" href="css/StyleSheet1.css">
+</head>
+
+<body>
+    <!-- Contains the website's main navigation and university branding. -->
+    <header class="site-header">
+        <!-- Provides navigation links for the website. -->
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <!-- Links the university logo and name back to the top of this page. -->
+            <a class="brand" href="#welcome">
+
+                <!-- Displays the MDU abbreviation inside the orange logo block. -->
+                <span class="brand-mark">MDU</span>
+
+                <!-- Displays the full university name. -->
+                <span>MDU University</span>
+            </a>
+
+            <!-- Contains links to the different sections of this page. -->
+            <div class="nav-links">
+
+                <!-- Scrolls to the welcome section. -->
+                <a href="#welcome">Welcome</a>
+
+                <!-- Scrolls to the first-week section. -->
+                <a href="#getting-started">Getting Started</a>
+
+                <!-- Scrolls to the student resources section. -->
+                <a href="#resources">Resources</a>
+
+                <!-- Scrolls to the contact section. -->
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Button that takes the user to the getting-started section. -->
+            <a class="button button-small" href="#getting-started">
+                Get Started
+            </a>
+        </nav>
+    </header>
+
+    <!-- Contains all of the main content of the webpage. -->
+    <main>
+
+        <!-- Hero section that introduces the website to new students. -->
+        <section class="hero" id="welcome">
+            <!-- Keeps the hero content centered and limits its width. -->
+            <div class="container hero-content">
+
+                <!-- Contains the main welcome message and action links. -->
+                <div class="hero-text">
+
+                    <!-- Small introductory label above the main heading. -->
+                    <p class="eyebrow">WELCOME, NEW STUDENTS</p>
+
+                    <!-- Main heading for the webpage. -->
+                    <h1>Start your MDU journey with confidence.</h1>
+
+                    <!-- Explains the purpose of the new student website. -->
+                    <p class="hero-description">
+                        Everything you need to settle in, connect with your university
+                        community, and make the most of your first year at MDU University.
+                    </p>
+
+                    <!-- Groups the buttons and links in the hero section. -->
+                    <div class="hero-actions">
+
+                        <!-- Takes the user to the first-week checklist. -->
+                        <a class="button" href="#getting-started">
+                            Explore Your First Steps
+                        </a>
+
+                        <!-- Takes the user to the student resources section. -->
+                        <a class="text-link" href="#resources">
+                            View student resources →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Promotional card containing a welcome message. -->
+                <div class="hero-card">
+
+                    <!-- Decorative symbol displayed on the card. -->
+                    <div class="card-icon">✦</div>
+
+                    <!-- Heading displayed inside the promotional card. -->
+                    <h2>Your university adventure starts here.</h2>
+
+                    <!-- Supporting text for the promotional card. -->
+                    <p>
+                        Meet new people, discover opportunities, and build the skills
+                        that will shape your future.
+                    </p>
+
+                    <!-- Displays additional information at the bottom of the card. -->
+                    <div class="card-footer">
+
+                        <!-- Describes the card content. -->
+                        <span>New student guide</span>
+
+                        <!-- Displays the academic year. -->
+                        <strong>2025–26</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Provides quick links to important parts of the webpage. -->
+        <section class="quick-links" aria-label="Quick links">
+            <!-- Centers and arranges the quick links. -->
+            <div class="container quick-links-grid">
+
+                <!-- Quick link to the first-week checklist. -->
+                <a href="#getting-started">
+
+                    <!-- Number displayed for the first quick link. -->
+                    <span class="quick-icon">01</span>
+
+                    <!-- Text content for the first quick link. -->
+                    <span>
+                        <strong>First steps</strong>
+                        <small>Get settled on campus</small>
+                    </span>
+                </a>
+
+                <!-- Quick link to the student resources section. -->
+                <a href="#resources">
+
+                    <!-- Number displayed for the second quick link. -->
+                    <span class="quick-icon">02</span>
+
+                    <!-- Text content for the second quick link. -->
+                    <span>
+                        <strong>Student resources</strong>
+                        <small>Find useful support</small>
+                    </span>
+                </a>
+
+                <!-- Quick link to the contact section. -->
+                <a href="#contact">
+
+                    <!-- Number displayed for the third quick link. -->
+                    <span class="quick-icon">03</span>
+
+                    <!-- Text content for the third quick link. -->
+                    <span>
+                        <strong>Need help?</strong>
+                        <small>Contact the student team</small>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section containing important tasks for a student's first week. -->
+        <section class="section container" id="getting-started">
+
+            <!-- Heading and introduction for the first-week section. -->
+            <div class="section-heading">
+                <p class="eyebrow">YOUR FIRST WEEK</p>
+                <h2>Make a strong start.</h2>
+                <p>Use this simple checklist to get comfortable and connected.</p>
+            </div>
+
+            <!-- Contains the checklist cards. -->
+            <div class="feature-grid">
+
+                <!-- Card explaining how to complete registration. -->
+                <article class="feature-card">
+                    <span class="feature-number">01</span>
+                    <h3>Complete your registration</h3>
+                    <p>
+                        Confirm your enrollment details and collect your student ID.
+                    </p>
+                    <a href="#">Learn more →</a>
+                </article>
+
+                <!-- Card explaining how to explore the campus. -->
+                <article class="feature-card">
+                    <span class="feature-number">02</span>
+                    <h3>Explore the campus</h3>
+                    <p>
+                        Familiarize yourself with key locations and facilities.
+                    </p>
+                    <a href="#">Learn more →</a>
+                </article>
+
+                <!-- Card linking students to the campus activities page. -->
+                <article class="feature-card">
+                    <span class="feature-number">03</span>
+                    <h3>Join orientation activities</h3>
+                    <p>
+                        Participate in events to meet fellow students and staff.
+                    </p>
+
+                    <!-- Opens the activities and orientation page. -->
+                    <a href="HTMLPage2.html">Learn more →</a>
+                </article>
+
+                <!-- Card explaining how to set up a student account. -->
+                <article class="feature-card">
+                    <span class="feature-number">04</span>
+                    <h3>Set up your student account</h3>
+                    <p>
+                        Access online resources, including email and the student portal.
+                    </p>
+                    <a href="#">Learn more →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section containing useful student support services. -->
+        <section class="section container" id="resources">
+
+            <!-- Heading and introduction for the resources section. -->
+            <div class="section-heading">
+                <p class="eyebrow">STUDENT RESOURCES</p>
+                <h2>Essential tools and support.</h2>
+                <p>Explore the resources available to help you succeed.</p>
+            </div>
+
+            <!-- Contains the resource service cards. -->
+            <div class="resource-grid">
+
+                <!-- Card for library services. -->
+                <article class="resource-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Library Services</h3>
+                    <p>
+                        Access a wealth of knowledge, including books, journals,
+                        and online databases.
+                    </p>
+                    <a href="#">Discover more →</a>
+                </article>
+
+                <!-- Card for information technology support. -->
+                <article class="resource-card">
+                    <div class="card-icon">💻</div>
+                    <h3>IT Support</h3>
+                    <p>
+                        Get assistance with technical issues and learn about
+                        available software.
+                    </p>
+                    <a href="#">Discover more →</a>
+                </article>
+
+                <!-- Card for tutoring and academic support. -->
+                <article class="resource-card">
+                    <div class="card-icon">🧑‍🏫</div>
+                    <h3>Tutoring Services</h3>
+                    <p>
+                        Receive academic support and improve your study skills.
+                    </p>
+                    <a href="#">Discover more →</a>
+                </article>
+
+                <!-- Card for personal and academic counseling. -->
+                <article class="resource-card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Counseling Services</h3>
+                    <p>
+                        Talk to someone about personal or academic challenges
+                        you may be facing.
+                    </p>
+                    <a href="#">Discover more →</a>
+                </article>
+            </div>
+        </section>
+     
+        </section>
+
+        <!-- Section displaying student experiences and ratings. -->
+        <section class="section testimonials-section" id="student-experiences">
+            <div class="container">
+
+                <!-- Introduction for the student experiences section. -->
+                <div class="section-heading">
+                    <p class="eyebrow">STUDENT EXPERIENCES</p>
+                    <h2>Hear from our students.</h2>
+                    <p>
+                        Discover what new students say about their first year at
+                        MDU University.
+                    </p>
+                </div>
+
+                <!-- Displays the overall example rating. -->
+                <div class="rating-summary">
+                    <strong>4.8</strong>
+                    <div>
+                        <div class="stars" aria-label="4.8 out of 5 stars">
+                            ★★★★★
+                        </div>
+                        <span>Based on 250 student ratings</span>
+                    </div>
+                </div>
+
+                <!-- Contains individual student reviews. -->
+                <div class="testimonial-grid">
+
+                    <!-- First student review. -->
+                    <article class="testimonial-card">
+                        <div class="stars" aria-label="5 out of 5 stars">
+                            ★★★★★
+                        </div>
+                        <blockquote>
+                            “The orientation activities helped me meet new friends
+                            and feel comfortable on campus.”
+                        </blockquote>
+                        <p class="student-name"> Sara Andersson</p>
+                        <p class="student-course">First-year Computer Science student</p>
+                    </article>
+
+                    <!-- Second student review. -->
+                    <article class="testimonial-card testimonial-card-highlight">
+                        <div class="stars" aria-label="5 out of 5 stars">
+                            ★★★★★
+                        </div>
+                        <blockquote>
+                            “The student support team made registration and settling
+                            into university very easy.”
+                        </blockquote>
+                        <p class="student-name">Priya Mehta</p>
+                        <p class="student-course">First-year Business student</p>
+                    </article>
+
+                    <!-- Third student review. -->
+                    <article class="testimonial-card">
+                        <div class="stars" aria-label="4 out of 5 stars">
+                            ★★★★☆
+                        </div>
+                        <blockquote>
+                            “There are many clubs and activities. I quickly found
+                            people who share my interests.”
+                        </blockquote>
+                        <p class="student-name">Adam Singh</p>
+                        <p class="student-course">First-year Arts student</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub project information box. -->
+        <section class="github-section" aria-label="GitHub project information">
+            <div class="container">
+                <div class="github-box">
+
+                    <!-- GitHub icon and heading. -->
+                    <div class="github-heading">
+                        <div class="github-icon">GH</div>
+                        <div>
+                            <p class="eyebrow">PROJECT INFORMATION</p>
+                            <h2>View this project on GitHub.</h2>
+                        </div>
+                    </div>
+
+                    <!-- Description and GitHub link. -->
+                    <div class="github-details">
+                        <p>
+                            Explore the source code, follow updates, and contribute ideas
+                            to improve the MDU student website.
+                        </p>
+
+                        <!-- Replace this URL with the actual GitHub repository URL. -->
+                        <a class="github-link"
+                           href="https://github.com/your-username/mdu-student-website"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Open GitHub repository →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer displayed at the bottom of the webpage. -->
+    <footer class="site-footer">
+        <!-- Centers and arranges the footer content. -->
+        <div class="container footer-content">
+
+            <!-- Contains copyright information. -->
+            <div class="footer-info">
+                <p>&copy; 2023 MDU University. All rights reserved.</p>
+            </div>
+
+            <!-- Contains links to the university's social media accounts. -->
+            <div class="social-links">
+
+                <!-- Instagram social media link. -->
+                <a href="#" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         fill="none"
+                         aria-hidden="true">
+                        <path stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M2.25 12c0 5.104 4.896 9.25 10.75 9.25S23.75 17.104 23.75 12 18.854 2.75 13.5 2.75 2.25 6.896 2.25 12z" />
+                        <path stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
+                    </svg>
+                </a>
+
+                <!-- Twitter social media link. -->
+                <a href="#" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         fill="none"
+                         aria-hidden="true">
+                        <path stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M22.46 6c-.77.357-1.596.597-2.46.707A4.48 4.48 0 0021.915 5c-.866.513-1.82.878-2.84 1.073a4.447 4.447 0 00-7.599 4.048A12.627 12.627 0 011.671 4.895 4.459 4.459 0 002.87 9.87c.391-.081.785-.236 1.141-.432a4.528 4.528 0 01-3.625-4.448v-.058a4.487 4.487 0 002.014.559A4.517 4.517 0 012.1 4.747a12.74 12.74 0 007.99 2.747c-1.252-.77-2.098-2.08-2.098-3.637 0-.8.216-1.548.595-2.19A12.763 12.763 0 0020.45 3c-.073.513-.278 1.024-.659 1.476a4.49 4.49 0 01-1.054-.289A4.455 4.455 0 0015.27 9c0 .557.105 1.086.301 1.574A4.516 4.516 0 0116.5 12z" />
+                    </svg>
+                </a>
+
+                <!-- Facebook social media link. -->
+                <a href="#" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24"
+                         height="24"
+                         fill="none"
+                         aria-hidden="true">
+                        <path stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M2.25 12c0 5.104 4.896 9.25 10.75 9.25S23.75 17.104 23.75 12 18.854 2.75 13.5 2.75 2.25 6.896 2.25 12z" />
+                        <path stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M15 12h-3v9H9v-9H6V9h3V6.75C9 4.567 10.567 3 12.75 3h1.5v3h-1.5C11.679 6 11 6.679 11 7.5V9h4z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact section. This is the final content section on the page. -->
+    <section class="section container contact-section" id="contact">
+        <div class="section-heading">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>We're here to help.</h2>
+            <p>Reach out to us with any questions or concerns.</p>
+        </div>
+
+        <div class="contact-content">
+            <p>
+                Email us at
+                <a href="mailto:contact@example.mail.com">
+                    contact@example.mail.com
+                </a>
+            </p>
+        </div>
+    </section>
+</body>
+</html>
